@@ -1,0 +1,1 @@
+A background worker program (Listener) to process test result data messages sent from medical analyzer devices via HTTP. The data message format is HL7 standard, which is the data exchanges standard in medicial industry.
