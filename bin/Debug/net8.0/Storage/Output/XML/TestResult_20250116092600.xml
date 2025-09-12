@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ORU_R01 xmlns="urn:hl7-org:v2xml">
+  <MSH>
+    <MSH.1>|</MSH.1>
+    <MSH.2>^~\&amp;</MSH.2>
+    <MSH.3>
+      <HD.2>0000000000000000</HD.2>
+      <HD.3>EUI-64</HD.3>
+    </MSH.3>
+    <MSH.4>
+      <HD.1>BioNote</HD.1>
+    </MSH.4>
+    <MSH.7>20240214153651</MSH.7>
+    <MSH.9>
+      <MSG.1>ORU</MSG.1>
+      <MSG.2>R01</MSG.2>
+      <MSG.3>ORU_R01</MSG.3>
+    </MSH.9>
+    <MSH.10>{29845013-f1dc-4562-8f19-a2152a27d50b}</MSH.10>
+    <MSH.11>
+      <PT.1>P</PT.1>
+    </MSH.11>
+    <MSH.12>
+      <VID.1>2.6</VID.1>
+    </MSH.12>
+    <MSH.15>AL</MSH.15>
+    <MSH.16>NE</MSH.16>
+    <MSH.18>UNICODE UTF-8</MSH.18>
+    <MSH.19>
+      <CWE.1>EN</CWE.1>
+      <CWE.2>English</CWE.2>
+      <CWE.3>ISO639</CWE.3>
+    </MSH.19>
+    <MSH.21>
+      <EI.1>IHE_PCD_ORU_R01</EI.1>
+      <EI.2>IHE PCD</EI.2>
+      <EI.3>1.3.6.1.4.1.19376.1.6.4.1</EI.3>
+      <EI.4>ISO</EI.4>
+    </MSH.21>
+  </MSH>
+  <ORU_R01.PATIENT_RESULT>
+    <ORU_R01.PATIENT>
+      <PID>
+        <PID.3>
+          <CX.1>123</CX.1>
+        </PID.3>
+        <PID.5>
+          <XPN.7>U OBR</XPN.7>
+        </PID.5>
+        <PID.6>
+          <XPN.1>
+            <FN.1>1</FN.1>
+          </XPN.1>
+        </PID.6>
+        <PID.7>880afc3c-14ac-4702-9a7a-f7fc9d3f0969</PID.7>
+        <PID.8>880afc3c-14ac-4702-9a7a-f7fc9d3f0969</PID.8>
+        <PID.9>
+          <XPN.1>
+            <FN.1>BN0610</FN.1>
+          </XPN.1>
+          <XPN.2>cPRG2.0</XPN.2>
+          <XPN.3>BN</XPN.3>
+        </PID.9>
+        <PID.12>20240213181204</PID.12>
+        <PID.13>
+          <XTN.1>20240213181204 </XTN.1>
+        </PID.13>
+      </PID>
+      <NTE>
+        <NTE.1>1</NTE.1>
+        <NTE.3>Device Information,Date of manufacture=20240112,LotNo=1,SerialNo=00000,Kind=FLine23</NTE.3>
+      </NTE>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>NM</OBX.2>
+        <OBX.3>
+          <CWE.1>BN0610</CWE.1>
+          <CWE.2>cPRG2.0</CWE.2>
+          <CWE.3>BN</CWE.3>
+        </OBX.3>
+        <OBX.4>1.0.0.61</OBX.4>
+        <OBX.5>Invalid</OBX.5>
+        <OBX.6>
+          <CWE.1>ng/mL</CWE.1>
+          <CWE.2>nanogram per milliliter</CWE.2>
+          <CWE.3>UCUM</CWE.3>
+        </OBX.6>
+        <OBX.7>[1.00;30.00]</OBX.7>
+        <OBX.11>X</OBX.11>
+        <OBX.14>20240213181204</OBX.14>
+        <OBX.16>
+          <XCN.1>guest</XCN.1>
+        </OBX.16>
+        <OBX.19>20240213181204 NTE</OBX.19>
+        <OBX.20>
+          <CWE.1>1</CWE.1>
+        </OBX.20>
+        <OBX.22>
+          <CNE.1>Interpretation=Invalid</CNE.1>
+        </OBX.22>
+      </OBX>
+    </ORU_R01.PATIENT>
+  </ORU_R01.PATIENT_RESULT>
+</ORU_R01>

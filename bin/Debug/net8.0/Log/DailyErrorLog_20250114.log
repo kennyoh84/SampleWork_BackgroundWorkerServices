@@ -1,0 +1,7 @@
+2025-01-14 10:51:27,088 ERROR VCheckListenerWorker.Lib.Util.Logger.Error [35] - MESSAGE: ProcessMessage >>> V26 >>> System.FormatException: String '20220221202522<CR>' was not recognized as a valid DateTime.
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at VCheckListenerWorker.Lib.Logic.HL7.V26.HL7Repository.ProcessMessage(IMessage sIMessage, String sSystemName) in C:\Dev\VCheck\VCheckListenerWorker\Lib\Logic\HL7\V26\HL7Repository.cs:line 297
+ 2025-01-14 10:51:54,321 ERROR VCheckListenerWorker.Lib.Util.Logger.Error [35] - MESSAGE: ProcessMessage >>> V26 >>> System.FormatException: String '20220221202522<CR>' was not recognized as a valid DateTime.
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at VCheckListenerWorker.Lib.Logic.HL7.V26.HL7Repository.ProcessMessage(IMessage sIMessage, String sSystemName) in C:\Dev\VCheck\VCheckListenerWorker\Lib\Logic\HL7\V26\HL7Repository.cs:line 297
+ 
